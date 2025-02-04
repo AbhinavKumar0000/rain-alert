@@ -2,13 +2,13 @@ import requests
 from twilio.rest import Client
 
 endpoint = "https://pro.openweathermap.org/data/2.5/forecast"
-api_key = "1b623690d1841bd2d55b902d99eabfbf"
-account_sid = "ACc125cd726cfcc7bc34a303e30db39c68"
-auth_token = "da90b460d15d5435d43365b16683747f"
-# LAT = 23.205011
-# LONG = 77.085075
-LAT = -9.3167 #currently raining
-LONG = 132.45
+api_key = "" # Enter your API KEY here
+account_sid = "" #Enter you acc SID here
+auth_token = "" # Enter your authentication token here
+LAT = #Enter your lattitude here
+LONG = #Enter your longitude here
+# LAT = -9.3167 #use this coordinates for checking this code (currently raining here)
+# LONG = 132.45
 parameters = {
     "lat": LAT,
     "lon": LONG,
